@@ -47,8 +47,8 @@ plotly.tools.set_credentials_file(username='ParthPatel', api_key='56xws1snxp')
 
 positiveSet= sys.argv[1] #"phasiRNAs.txt" 
 negativeSet=sys.argv[2] #"hc-siRNAs.txt"
-size=24 # size of sRNAs in both files
-p_val=0.001 # p_value to determine the signficance of the result
+size= sys.argv[3] #24 # size of sRNAs in both files
+p_val=sys.argv[4] #0.001 # p_value to determine the signficance of the result
 
 
 ##############################################################################################################
